@@ -107,6 +107,7 @@ body {
 }
 .suc {
   border: 2px solid hsl(154, 59%, 51%);
+  color: #000;
 }
 input {
   padding: 0.8rem 0.7rem;
@@ -172,7 +173,7 @@ input:focus {
   bottom: 0;
   left: 0;
   background-color: hsl(0, 100%, 74%);
-  opacity: 0.25;
+  opacity: 0.1;
 }
 
 @media screen and (max-width: 900px) {
