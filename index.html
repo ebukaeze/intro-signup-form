@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign up form</title>
+        <link rel="stylesheet" href="./style.css" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="learn overlay">
+            <div class="learn-container">
+                <section class="content">
+                    <section class="banner">
+                        <article class="banner-content">
+                        <h1 class="banner-title">Learn to code by watching others</h1>
+                        <p class="banner-subtitle">See how experienced developers solve problems in real-time.<br/>
+                        watching scripted tutorial is great, but understanding how developers think is invaluable.</p>
+                        </article>
+
+                    </section>
+                    <section class="form-table">
+                        <div class="form-header">
+                            <h3 class="header-text"><strong>Try it free 7 days</strong> <span class="small"><small>then $20 per/mo, thereafter</small></span></h3>
+                        </div>
+
+                        <div class="form-container">
+                            <form class="form" id="form" class="success error" onsubmit="checkValidation()">
+                                <div class="form-field">
+                                <input id="firstname" type="text" name="firstname" placeholder="First Name"
+                                autocomplete="off" autofocus/><small class="firstname val"></small>
+                                </div>
+                                
+                                <div class="form-field">
+                                <input id="lastname" type="text" name="lastname" placeholder="Last Name"/>
+                                <small class="lastname val"></small>
+                                </div>
+
+                                <div class="form-field">
+                                <input id="email" type="email" name="email" placeholder="Email Address" />
+                                <small class="email val"></small>
+                                </div>
+
+                                <div class="form-field">
+                                <input id="password" type="password" name="password" placeholder="Password" />
+                                <small class="password val"></small>
+                                </div>
+                                 
+                                <div class="form-field">
+                                <input type="button" id="submit" class="submit-btn" value="Claim Your Free Trial"/>
+                                </div>
+                                <p class="btn-text"> By clicking the button, you are agreeing to our <strong class="red">Terms and Services</strong></p>
+                            </form>
+                        </div>
+                    </section>
+
+                </section>
+            </div>
+           
+        </div>
+
+
+        <script src="./script.js"></script>
+    </body>
+</html>
